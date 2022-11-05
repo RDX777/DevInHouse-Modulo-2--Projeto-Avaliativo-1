@@ -7,6 +7,6 @@ Back-end de administração do sistema LabCar.
 ## Endpoints:
 
 /motoristas
-/passagens
+/passageiros
 /viagens
 /viagens/motorista/

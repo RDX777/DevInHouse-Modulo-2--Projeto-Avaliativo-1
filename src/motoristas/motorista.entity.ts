@@ -1,7 +1,7 @@
 import { IsDateString, IsNotEmpty, IsString, Length } from "class-validator";
 import { IsValidAge } from "src/common/decorators/is-valid-age.validator";
 import { IsValidCpf } from "src/common/decorators/is-valid-cpf.validator";
-import { Exclude, Expose } from "class-transformer";
+import { Expose } from "class-transformer";
 
 export class Motorista {
   @IsNotEmpty()

@@ -2,7 +2,6 @@ import { Injectable } from "@nestjs/common";
 import { DatabasePassageiro, DatabaseViagem } from "src/database/database";
 import { Passageiro } from "./passageiro.entity";
 import {
-  badRequestItem,
   conflictItem,
   notFoundItem,
 } from "src/common/http_returns/custom-http-return";

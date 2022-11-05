@@ -21,8 +21,8 @@ export class Passageiro {
 
   @IsNotEmpty()
   @IsString()
-  // @Length(11, 11)
-  // @IsValidCpf()
+  @Length(11, 11)
+  @IsValidCpf()
   cpf: string;
 
   @IsString()

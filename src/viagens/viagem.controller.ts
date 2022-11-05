@@ -3,12 +3,7 @@ import { NestResponse } from "src/core/http/nest-response";
 import { NestResponseBuilder } from "src/core/http/nest-response-builder";
 import { Viagem } from "./viagem.entity";
 import { ViagemService } from "./viagem.service";
-import {
-  notFoundItem,
-  conflictItem,
-  internalServerErrorItem,
-} from "../common/http_returns/custom-http-return";
-import { badRequestItem } from "../common/http_returns/custom-http-return";
+import { internalServerErrorItem } from "../common/http_returns/custom-http-return";
 
 @Controller("viagens")
 export class ViagemController {
